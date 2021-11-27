@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./Assets/Fonts/mulish-v7-latin_cyrillic-regular.woff2') format('woff2'), 
+       url('./Assets/Fonts/mulish-v7-latin_cyrillic-regular.woff') format('woff'); 
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish";
+  min-height: 100vh;
+  background-color: #17171E;
+  // background-color: #fff;
+}
+.App {
+  width: 1920px;
+  // width: 1320px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.main{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.svg__sprit{
+  display: none;
+}
+.icon{
+  fill: white;
+}
+// @media screen and (max-width: 768px) {
+//   .container {
+//     width: 689px;
+//     margin: 10px;
+//   }
+// }
+

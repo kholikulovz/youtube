@@ -1,0 +1,91 @@
+.player {
+    width: 80%;
+    color: #FFFFFF;
+    margin-top: 30px;
+    &__main{
+width: 900px; 
+max-width: 100%;
+    }
+    &__title{
+        font-weight: bold;
+font-size: 36px;
+line-height: 45px;
+margin: 20px 0 14px 0;
+    }
+    &__stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        &-btn{
+            background: #ffffff;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        border-radius: 20px;
+        border: none;
+        padding: 10px 16px;
+        margin-right: 10px;
+        }
+        &-icon{
+            width: 15px;
+            height: 15px;
+        }
+        &-more{
+            width: 28px;
+            height: 6px;
+        }
+    }
+    &__hr{
+        height: 1px;
+        border: none;
+        background: rgba(216, 216, 216, 0.5);
+        margin-bottom: 38px;
+    }
+    &__desc{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        &-textbox{
+            width: 65%;
+        }
+        &-title{
+            font-weight: bold;
+font-size: 26px;
+line-height: 33px;
+color: #FFFFFF;
+        }
+        &-date{
+            font-size: 13px;
+            line-height: 16px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+        }
+        &-text{
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+            margin: 15px 0;
+        }
+        &-more{
+            font-size: 20px;
+            line-height: 25px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.4;
+        }
+        &-btn{
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            background: #FF0000;
+border-radius: 20px;
+border: none;
+        }
+    }
+}

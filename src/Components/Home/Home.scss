@@ -1,0 +1,67 @@
+.home {
+  width: 80%;
+  margin-top: 50px;
+  color: #ffffff;
+
+  &__item {
+margin-top: 49px;
+}
+&__user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  &-img {
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  &-name {
+      color: #FFFFFF;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 33px;
+    }
+    &-text {
+      font-size: 16px;
+      line-height: 20px;
+      color: #c2c2c2;
+      margin-left: 20px;
+    }
+  }
+  &__sublist{
+    display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+  }
+  &__posts{
+    width: 250px;
+    &-title{
+      color: #FFFFFF;
+      margin: 10px 0 5px 0;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    &-view{
+      font-size: 13px;
+      line-height: 16px;
+      color: #FFFFFF;
+      mix-blend-mode: normal;
+      opacity: 0.4;
+    }
+    &-user{
+      font-size: 13px;
+      line-height: 16px;
+      color: #FFFFFF;
+      mix-blend-mode: normal;
+      opacity: 0.4;
+    }
+  }
+}
+.active {
+  color: red;
+  & .icon{
+    fill: red;
+  }
+}

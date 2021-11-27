@@ -1,0 +1,147 @@
+.channel {
+    width: 80%;
+    margin-top: 30px;
+    color: #ffffff;
+    &__intro {
+        &-img {
+            max-width: 100%;
+        }
+    }
+    &__user {
+        margin: 30px 0 20px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-box {
+            display: flex;
+            align-items: center;
+        }
+        &-textbox {
+            margin-left: 14px;
+        }
+        &-name {
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 33px;
+        }
+        &-subs {
+            font-size: 13px;
+            line-height: 16px;
+            color: #c2c2c2;
+        }
+        &-right {
+            display: flex;
+            align-items: center;
+        }
+        &-btn {
+            border: none;
+            background: #ff0000;
+            border-radius: 20px;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #ffffff;
+            padding: 10px 20px;
+            margin-left: 20px;
+        }
+        &-bell{
+            width: 22px;
+            height: 26px;
+        }
+    }
+    &__nav {
+        width: 45%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-link {
+            font-size: 18px;
+            line-height: 23px;
+            color: #ffffff;
+        }
+        &-search{
+            width: 19px;
+            height: 19px;
+        }
+    }
+    &__choose {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 50px 0;
+        &-box {
+            width: 70%;
+            display: flex;
+        }
+        &-img {
+            width: 300px;
+            margin-right: 10px;
+        }
+        &-title {
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 34px;
+        }
+        &-text {
+            font-size: 15px;
+            line-height: 22px;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+            margin: 5px 0 10px 0;
+        }
+        &-view {
+            font-size: 14px;
+            line-height: 22px;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+        }
+        &-recommend {
+            font-size: 16px;
+            line-height: 20px;
+            color: #c2c2c2;
+        }
+        &-users {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+        }
+        &-recname {
+            font-size: 16px;
+            line-height: 23px;
+            margin-left: 20px;
+        }
+        &-recimg{
+            border-radius: 50%;
+        }
+    }
+    &__item {
+        margin-bottom: 49px;
+    }
+    &__profile {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        &-img {
+            margin-right: 20px;
+        }
+        &-name {
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 33px;
+        }
+        &-text {
+            font-size: 16px;
+            line-height: 20px;
+            color: #c2c2c2;
+            margin-left: 20px;
+        }
+    }
+    &__posts {
+        &-title {
+            margin: 10px 0 5px 0;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 20px;
+        }
+    }
+}

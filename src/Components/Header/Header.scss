@@ -1,0 +1,71 @@
+.header{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__left{
+        display: flex;
+        align-items: center;
+        &-logo{
+            margin:0 39px 0 20px;
+            width: 116px;
+            height: 25px;
+        }
+        &-menu{
+            width: 20px;
+            height: 17px;
+        }
+    }
+    &__search{
+        &-box{
+            display: flex;
+            align-items: center;
+            width: 560px;
+            max-width: 100%;
+            background-color: #2C2C33;
+            padding: 12px 23px;
+            // mix-blend-mode: normal;
+            // opacity: 0.1;
+            border-radius: 22px;
+        }
+        &-input{
+            width: 500px;
+            max-width: 100%;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            color: white;
+        }
+        &-icon{
+            width: 19px;
+            height: 19px;
+        }
+    }
+    &__right{
+        display: flex;
+        align-items: center;
+        &-list{
+            display: flex;
+            align-items: center;
+        }
+        &-item{
+            margin-right: 20px;
+        }
+        &-user{
+            border-radius: 50%;
+        }
+        &-camera{
+            width: 27px;
+            height: 20px;
+        }
+        &-dots{
+width: 21px;
+height: 21px;
+        }
+        &-bell{
+height: 26px;
+width: 22px;
+        }
+    }
+}
